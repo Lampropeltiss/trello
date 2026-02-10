@@ -1,0 +1,122 @@
+.widget {
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+
+    border-radius: 20px;
+    box-shadow: 4px 3px 5px rgb(61, 51, 49);
+}
+
+.trello-widget {
+    padding: 15px;
+    background-color: var(--widget-bg-color);
+    justify-self: center;
+}
+
+.trello-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    user-select: none;
+}
+
+.trello-controls-line {
+    margin-top: 5px;
+    display: inline-flex;
+    gap: 10px;
+    width: fit-content;
+
+    align-items: center;
+
+    color: var(--controls-text-color);
+}
+
+.trello-columns {
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.trello-column {
+    justify-items: center;
+    border-radius: 13px;
+
+    background-color: var(--column-bg-color);
+    height: fit-content;
+}
+
+.trello-column-title {
+    justify-self: left;
+
+    color: var(--column-title-text-color);
+
+    user-select: none;
+}
+
+.trello-column-tasks {
+    width: 100%;
+}
+
+.trello-task, .trello-adding-panel {
+    justify-self: center;
+
+    border-radius: 10px;
+    padding: 8px;
+
+    background-color: var(--task-bg-color);
+    color: var(--task-text-color);
+    border: var(--task-border-color) solid;
+
+    cursor: grab;
+
+    overflow-wrap: break-word;
+
+    position: relative;
+}
+
+.trello-adding-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    cursor: auto;
+}
+
+.trello-adding-title {
+    user-select: none;
+}
+
+.trello-adding-input {
+    border: var(--task-border-color) solid;
+}
+
+.trello-adding-input, 
+.trello-adding-input::placeholder {
+    background: var(--task-bg-color);
+    color: var(--task-text-color);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--task-text-color);
+  -webkit-box-shadow: 0 0 0px 40rem var(--task-bg-color) inset;
+}
+
+.trello-task:active {
+    cursor: grabbing;
+}
+
+.fantom {
+    background: transparent;
+    color: transparent;
+}
+
+.hidden {
+    display: none;
+}

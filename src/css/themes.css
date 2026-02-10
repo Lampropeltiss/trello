@@ -1,0 +1,67 @@
+:root {
+    --widget-bg-color: rgb(164, 138, 118);
+    --theme-toggle-bg-color: var(--widget-bg-color);
+
+    --controls-text-color: rgb(252, 247, 239);
+    --column-bg-color: #5b493a;
+    --column-title-text-color: rgb(249, 237, 219);
+
+    --task-bg-color: #e3d3c7;
+    --task-text-color: black;
+    --task-border-color: rgb(148, 127, 111);
+
+    --control-btn-bg-color: var(--widget-bg-color);
+    --control-btn-text-color: var(--controls-text-color);
+}
+
+[data-theme="latte"] {
+    --theme-toggle-bg-color: rgb(164, 138, 118);
+}
+
+[data-theme="chocolatte"] {
+    --widget-bg-color: #8f6e54;
+    --theme-toggle-bg-color: var(--widget-bg-color);
+
+    --controls-text-color: rgb(249, 240, 227);
+    --column-bg-color: #d3b49d;
+    --column-title-text-color: rgb(50, 40, 27);
+
+    --task-bg-color: rgb(91, 68, 52);
+    --task-text-color: rgb(250, 237, 221);
+    --task-border-color: rgb(215, 185, 162);
+
+    --control-btn-bg-color: var(--widget-bg-color);
+    --control-btn-text-color: var(--controls-text-color);
+}
+
+[data-theme="cappuccino"] {
+    --widget-bg-color: #7b583e;
+    --theme-toggle-bg-color: var(--widget-bg-color);
+
+    --controls-text-color: rgb(249, 240, 227);
+    --column-bg-color: #3e322a;
+    --column-title-text-color: rgb(248, 232, 210);
+
+    --task-bg-color: rgb(240, 217, 192);
+    --task-text-color: black;
+    --task-border-color: rgb(161, 126, 99);
+
+    --control-btn-bg-color: var(--widget-bg-color);
+    --control-btn-text-color: var(--controls-text-color);
+}
+
+[data-theme="espresso"] {
+    --widget-bg-color: #1a1210;
+    --theme-toggle-bg-color: var(--column-bg-color);
+
+    --controls-text-color: blanchedalmond;
+    --column-bg-color: #594536;
+    --column-title-text-color: wheat;
+
+    --task-bg-color: rgb(28, 21, 17);
+    --task-text-color: rgb(255, 239, 218);
+    --task-border-color: rgb(165, 142, 123);
+
+    --control-btn-bg-color: var(--column-bg-color);
+    --control-btn-text-color: var(--controls-text-color);
+}
