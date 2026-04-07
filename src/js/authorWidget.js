@@ -11,7 +11,7 @@ export default class AuthorWidget {
             <div>
                 <img class="avatar" src="https://avatars.githubusercontent.com/u/188052302?v=4" alt="Lampropeltiss Avatar">
             </div>
-            <div class="author-note">Widget done by Lampropeltiss</div>
+            <div class="author-note">Done by Lampropeltiss</div>
         </div>`;
   }
 
