@@ -47,6 +47,7 @@
 
 .add-new-btn {
     margin-top: 10px;
+    user-select: none;
 }
 
 .theme-toggle-btn {
